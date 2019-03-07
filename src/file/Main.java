@@ -12,7 +12,7 @@ public class Main {
     public static void main(String[] args) {
         Encryptor en = Encryptor.getEncrypter(true);
         Decryptor de = Decryptor.getDecrypter(true);
-        File src = new File("C:/Users/knwer/Desktop/crypt/src");
+        File src = new File("../sample/01-09_10-57-25-934.log");
         en.encrypt(src, src);
     }
 }
